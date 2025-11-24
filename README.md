@@ -19,17 +19,28 @@ Dikembangkan oleh **LTHLabs** sebagai proyek pembelajaran untuk membuat website 
 
 ## 📁 Struktur Proyek
 
-/
-├── Index.php # Halaman utama
-├── Dtable.php # Menampilkan data dalam tabel (dengan detail)
-├── table.php # Halaman tabel data
-├── addtable.php # Form untuk menambah data
-├── TBlogout.php # Untuk logout / keluar (jika ada sesi)
-├── dataApp.php # Backend PHP untuk mengolah data aplikasi
-├── app.css # Style global
-├── Log_up.css # Style untuk form login / registrasi
-├── img/ # Folder gambar statis
-└── package.json # Dependensi JavaScript (jika ada penggunaan npm)
+Web_Nawasena_Native/
+│
+├── Index.php
+├── addtable.php
+├── app.css
+├── dataApp.php
+├── Dtable.php
+├── Log_up.css
+├── package-lock.json
+├── package.json
+├── table.php
+├── TBlogout.php
+│
+├── img/
+│   ├── Hero.png
+│   ├── Logo taman.png
+│   ├── Logo_Nawasena.png
+│   ├── Logo_nawasena_2.png
+│   ├── Logo_nawasena_icon_.png
+│   └── Logo_nawasena_icon_light.png
+│
+└── README.md
 
 ---
 
