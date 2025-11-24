@@ -1,24 +1,24 @@
 # Web Nawasena Native
 
-Website **Web Nawasena Native**  
-Dikembangkan oleh **LTHLabs** sebagai proyek pembelajaran untuk membuat website menggunakan PHP, JavaScript, dan CSS.
+Website **Web Nawasena Native** dikembangkan oleh **LTHLabs** sebagai proyek pembelajaran untuk membuat website menggunakan PHP, JavaScript, dan CSS.
 
 ---
 
 ## ✨ Fitur
 
-- Halaman utama (index) dengan tampilan HTML + CSS  
-- Manajemen tabel data melalui `Dtable.php` dan `table.php`  
-- Form tambah data (`addtable.php`)  
-- Sistem logout (`TBlogout.php`)  
-- Menyimpan / menampilkan data web menggunakan `dataApp.php`  
-- Responsif sederhana dengan CSS custom  
+- Halaman utama (index) dengan tampilan HTML + CSS
+- Manajemen tabel data melalui `Dtable.php` dan `table.php`
+- Form tambah data (`addtable.php`)
+- Sistem logout (`TBlogout.php`)
+- Menyimpan / menampilkan data web menggunakan `dataApp.php`
+- Responsif sederhana dengan CSS custom
 - Gambar statis disimpan di folder `img`
 
 ---
 
 ## 📁 Struktur Proyek
 
+```
 Web_Nawasena_Native/
 │
 ├── Index.php
@@ -41,59 +41,77 @@ Web_Nawasena_Native/
 │   └── Logo_nawasena_icon_light.png
 │
 └── README.md
+```
 
 ---
 
 ## 🚀 Cara Menjalankan (Setup)
 
-1. Clone repo ini:
+### 1. Clone Repository
 
-   ```bash
-   git clone https://github.com/LTHLabs/Web_Nawasena_Native.git
-   cd Web_Nawasena_Native
-Jalankan web server lokal:
-Karena menggunakan PHP, kamu bisa pakai:
+```bash
+git clone https://github.com/LTHLabs/Web_Nawasena_Native.git
+cd Web_Nawasena_Native
+```
 
-XAMPP / WAMP / MAMP: letakkan folder repo di htdocs (atau www)
+### 2. Jalankan Web Server Lokal
 
-PHP built-in server (jika versi PHP-mu mendukung):
+Karena menggunakan PHP, Anda bisa menggunakan:
 
-bash
-Copy code
+**Opsi A: XAMPP / WAMP / MAMP**
+- Letakkan folder repo di `htdocs` (atau `www`)
+- Akses melalui browser: `http://localhost/Web_Nawasena_Native/Index.php`
+
+**Opsi B: PHP Built-in Server**
+```bash
 php -S localhost:8000
-Akses aplikasi: buka browser → http://localhost:8000/Index.php (atau path sesuai setup kamu).
+```
+- Akses melalui browser: `http://localhost:8000/Index.php`
 
-📦 Dependensi
-PHP (versi minimal tergantung fitur PHP apa yang dipakai)
+---
 
-Web server lokal (XAMPP / WAMP / Apache) / PHP built-in
+## 📦 Dependensi
 
-(Opsional) Node.js / npm — jika package.json digunakan untuk skrip JS front-end
+- PHP (versi minimal tergantung fitur PHP yang digunakan)
+- Web server lokal (XAMPP / WAMP / Apache) atau PHP built-in server
+- (Opsional) Node.js / npm — jika `package.json` digunakan untuk skrip JS front-end
 
-🧪 Tes & Pengembangan
-Untuk menambahkan data: buka addtable.php, isi form → submit → data akan diproses oleh dataApp.php.
+---
 
-Untuk melihat data: buka table.php atau Dtable.php.
+## 🧪 Tes & Pengembangan
 
-Untuk style: modifikasi file CSS (app.css, Log_up.css) sesuai kebutuhan.
+- **Menambahkan data**: Buka `addtable.php`, isi form → submit → data akan diproses oleh `dataApp.php`
+- **Melihat data**: Buka `table.php` atau `Dtable.php`
+- **Modifikasi style**: Edit file CSS (`app.css`, `Log_up.css`) sesuai kebutuhan
+- **Menambah gambar**: Tambahkan gambar ke folder `img/` dan referensikan di halaman web
 
-Untuk image: tambahkan gambar ke folder img/ dan referensikan di halaman web.
+---
 
-💡 Kontribusi
-Terima kasih jika kamu tertarik berkontribusi!
-Beberapa cara kontribusi:
+## 💡 Kontribusi
 
-Tambah fitur baru (misalnya autentikasi, validasi form, pagination)
+Terima kasih jika Anda tertarik berkontribusi! Beberapa cara kontribusi:
 
-Perbaiki tampilan CSS agar lebih responsif / modern
+- Tambah fitur baru (misalnya autentikasi, validasi form, pagination)
+- Perbaiki tampilan CSS agar lebih responsif / modern
+- Refaktor kode PHP agar lebih modular
+- Tambahkan dokumentasi atau contoh deployment production
 
-Refaktor kode PHP agar lebih modular
+---
 
-Tambahkan dokumentasi atau contoh deployment production
+## 📄 Lisensi
 
-📄 Lisensi
-Proyek ini dilisensikan dengan MIT License — lihat file LICENSE untuk detail lengkap.
+Proyek ini dilisensikan dengan **MIT License** — lihat file `LICENSE` untuk detail lengkap.
 
-👤 Penulis
-Luthfi.PR — pembuat awal repo
-LTHLabs — lab / komunitas pengembang
+---
+
+## 👤 Penulis
+
+- **Luthfi.PR** — Pembuat awal repo
+- **LTHLabs** — Lab / komunitas pengembang
+
+---
+
+## 📞 Kontak & Link
+
+- GitHub: [LTHLabs](https://github.com/LTHLabs)
+- Repository: [Web_Nawasena_Native](https://github.com/LTHLabs/Web_Nawasena_Native)
