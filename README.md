@@ -31,9 +31,6 @@ Dikembangkan oleh **LTHLabs** sebagai proyek pembelajaran untuk membuat website 
 ├── img/ # Folder gambar statis
 └── package.json # Dependensi JavaScript (jika ada penggunaan npm)
 
-yaml
-Copy code
-
 ---
 
 ## 🚀 Cara Menjalankan (Setup)
